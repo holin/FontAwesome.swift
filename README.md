@@ -8,6 +8,12 @@
 
 Use Font Awesome in your Swift projects
 
+## Custom icon font use http://iconfont.cn/
+
+1. convert iconfont.ttf to iconfont.otf (use: https://everythingfonts.com/ttf-to-otf)
+2. copy iconfont.css to FontAwseome directory
+3. change to bin directory, run `./enum-gen.rb`
+
 ## Installation
 
 ### CocoaPods

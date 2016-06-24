@@ -37,7 +37,7 @@ public extension UIFont {
             static var onceToken : dispatch_once_t = 0
         }
 
-        let name = "FontAwesome"
+        let name = "iconfont"
         if UIFont.fontNamesForFamilyName(name).isEmpty {
             dispatch_once(&Static.onceToken) {
                 FontLoader.loadFont(name)

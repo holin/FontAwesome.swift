@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E5E0FF71D1C1A1600D6AE3D /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E5E0FF61D1C1A1600D6AE3D /* FontAwesome.ttf */; };
+		3E5E0FF91D1CF6B700D6AE3D /* iconfont.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E5E0FF81D1CF6B700D6AE3D /* iconfont.otf */; };
 		8401A8D81B39601400269D14 /* FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 8401A8D71B39601400269D14 /* FontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8401A8DE1B39601400269D14 /* FontAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8401A8D21B39601400269D14 /* FontAwesome.framework */; };
 		8401A8E51B39601400269D14 /* FontAwesomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401A8E41B39601400269D14 /* FontAwesomeTests.swift */; };
 		8401A8F11B39610F00269D14 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401A8F01B39610F00269D14 /* FontAwesome.swift */; };
-		8401A8F31B3961B800269D14 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8401A8F21B3961B800269D14 /* FontAwesome.otf */; };
 		841575DA1B3A490A001092B6 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841575D91B3A490A001092B6 /* Enum.swift */; };
 		848938011C6AF0770085F6D1 /* FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 8401A8D71B39601400269D14 /* FontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E5E0FF61D1C1A1600D6AE3D /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		3E5E0FF81D1CF6B700D6AE3D /* iconfont.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.otf; sourceTree = "<group>"; };
 		8401A8D21B39601400269D14 /* FontAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8401A8D61B39601400269D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8401A8D71B39601400269D14 /* FontAwesome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
@@ -34,7 +37,6 @@
 		8401A8E31B39601400269D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8401A8E41B39601400269D14 /* FontAwesomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeTests.swift; sourceTree = "<group>"; };
 		8401A8F01B39610F00269D14 /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
-		8401A8F21B3961B800269D14 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		841575D91B3A490A001092B6 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 		848937F91C6AF0660085F6D1 /* FontAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,10 +89,11 @@
 		8401A8D41B39601400269D14 /* FontAwesome */ = {
 			isa = PBXGroup;
 			children = (
+				3E5E0FF81D1CF6B700D6AE3D /* iconfont.otf */,
+				3E5E0FF61D1C1A1600D6AE3D /* FontAwesome.ttf */,
 				8401A8D71B39601400269D14 /* FontAwesome.h */,
 				8401A8F01B39610F00269D14 /* FontAwesome.swift */,
 				841575D91B3A490A001092B6 /* Enum.swift */,
-				8401A8F21B3961B800269D14 /* FontAwesome.otf */,
 				8401A8D51B39601400269D14 /* Supporting Files */,
 			);
 			path = FontAwesome;
@@ -241,7 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8401A8F31B3961B800269D14 /* FontAwesome.otf in Resources */,
+				3E5E0FF71D1C1A1600D6AE3D /* FontAwesome.ttf in Resources */,
+				3E5E0FF91D1CF6B700D6AE3D /* iconfont.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
